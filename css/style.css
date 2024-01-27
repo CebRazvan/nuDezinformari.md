@@ -1,0 +1,51 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+    
+}
+
+.welcome-page {
+    height: 100vh;
+    position: relative;
+}
+
+.welcome-block{
+    position: absolute;
+    top: 25%;
+}
+
+@media (width <= 1200) {
+    .welcome-block {
+        
+        top: 0px !important;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a :hover {
+    color: brown;
+    transition: .2;
+}
+
+.verify-resource .card-text{
+    height: 170px !important;
+    overflow: hidden;
+}
+
+
+#exaple-fake-news .card img {
+    filter: brightness(50%);
+}
+footer {
+    height: 150px;
+    width: 100%;
+    background-color: rgb(43, 43, 43);
+}
+
